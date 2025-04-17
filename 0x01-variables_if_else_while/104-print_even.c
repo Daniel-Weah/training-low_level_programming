@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int print_even(void);
+void print_even(void);
 
 int main(void)
 {
-	printf("%d", print_even());
+	print_even();
 	return (0);
 }
 
-int print_even(void)
+void print_even(void)
 {
     int num = 2;
 
@@ -45,6 +45,5 @@ int print_even(void)
     }
 
     putchar('\n');
-    return 0;
 }
 
