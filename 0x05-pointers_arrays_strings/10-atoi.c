@@ -6,13 +6,13 @@
  */
 int _atoi(char *s)
 {
-    int sign = 1;
-    unsigned int result = 0;
-    int started = 0;
-    
-    while (*s)
-    {
-        if (*s == '-')
+	int sign = 1;
+	unsigned int result = 0;
+	int started = 0;
+	
+	while (*s)
+	{
+		if (*s == '-')
         {
             sign *= -1;
         }
